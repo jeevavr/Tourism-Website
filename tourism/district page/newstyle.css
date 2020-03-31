@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+header{
+    background-color:green;
+    height:5em;
+}
+img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.head-tag{
+    float: right;
+    margin-top:20px;
+}
+.head-tag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:whitesmoke;
+    border: 1px solid white;
+    padding:20px;
+}
+.head-tag a:hover
+{
+    background-color: teal;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.animat{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:blueviolet;
+font-style: bold;
+animation: example 5s linear 2s infinite alternate;
+margin-top: 10px;
+}
+
+.side-bar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 100px;
+}
+
+.new{
+    float: right;
+    border:2px solid yellowgreen;
+    background-color: rgb(220, 220, 245);
+    height:22em;
+    margin-top:5%;
+    margin-right: 2%;
+    padding:30px
+}
+.side-bar li{
+    list-style: square;
+}
+.latest{
+    padding-left: 250px;
+    padding-top: 50px;
+    border:2px solid blanchedalmond;
+    font-size: large;
+    color:whitesmoke;
+    height:25em;
+    margin-top:5%;
+    margin-right: 2%;
+
+}
+.clearfix{
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.cancelbtn{
+    
+    padding: 20px;
+   
+    font-weight: bold;
+}
+.signupbtn{
+    
+    padding: 20px;
+    font-weight: bold;
+}
+.emp{
+    padding-left: 100px;
+    margin:50px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.para{
+    font-weight: bold;
+    font-size:medium;
+}
